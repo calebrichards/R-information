@@ -1,4 +1,4 @@
-Data_Cortex_Nuclear <- read.csv("~/Grad School/Genomics/Data_Cortex_Nuclear.csv",header= TRUE,stringsAsFactors = FALSE)
+Data_Cortex_Nuclear <- read.csv("Data_Cortex_Nuclear.csv",header= TRUE,stringsAsFactors = FALSE)
 
 mice.dat <- data.frame(cbind(Data_Cortex_Nuclear$Genotype=="Control",
                                 Data_Cortex_Nuclear$Treatment=="Memantine",
